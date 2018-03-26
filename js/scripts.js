@@ -2,9 +2,9 @@
 
 function pole() {
     var a = document.getElementById("a").value;
-    var b = document.getElementById("b").value;
     var h = document.getElementById("h").value;
-    var wzor = a * b / h;
+    var x = 2;
+    var wzor = a * h / x;
 
     var napis = document.getElementById("wynik").innerHTML = wzor;
 
